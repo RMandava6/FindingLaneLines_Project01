@@ -17,7 +17,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./test_images/solidWhiteRight.jpg "Original"
-[image2]: ./test_images_output/Gray.png "Grayscale"
+[image2]: ./test_images_output/Gray.png "Gray"
 [image3]: ./test_images_output/GaussianSmoothing.png "Gaussian"
 [image4]: ./test_images_output/Canny.png "Canny"
 [image5]: ./test_images_output/Masked.png "Masked"
