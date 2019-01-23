@@ -113,8 +113,9 @@ Final images after extrapolation of lane lines are shown below:
 #### Step 8: Final Pipeline with steps 1 through 7
 Final pipeline with steps 1 through 7 are then applied to test video and the results are shown below:
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=cKHCOd_8zn0)
+[![First Test Video](https://img.youtube.com/vi/cKHCOd_8zn0/0.jpg)](https://www.youtube.com/watch?v=cKHCOd_8zn0)
 
+[![Second Test Video](https://img.youtube.com/vi/KllC-hVnadA/0.jpg)](https://www.youtube.com/watch?v=KllC-hVnadA)
 
 ### 2. Identify potential shortcomings with your current pipeline
 
