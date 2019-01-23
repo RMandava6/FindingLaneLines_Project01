@@ -49,7 +49,7 @@ Helper function: grayscale(img)
 Below is the original image:
 ![alt text][image1]
 
-Below is the grayscale image
+Below is the grayscale image:
 ![alt text][image2]
 
 #### Step 2:
@@ -112,14 +112,15 @@ Final images after extrapolation of lane lines are shown below:
 
 #### Step 8: Final Pipeline with steps 1 through 7
 Final pipeline with steps 1 through 7 are then applied to test video and the results are shown below:
-<video width="960" height="540" controls>
-  <source src="test_videos_output/solidwhiteRightTest.mp4">
-</video>
+```html
+    <video width="960" height="540" controls>
+      <source src="test_videos_output/solidwhiteRightTest.mp4">
+    </video>
 
-<video width="960" height="540" controls>
-  <source src="test_videos_output/solidYellowLeftTest.mp4">
-</video>
-
+    <video width="960" height="540" controls>
+      <source src="test_videos_output/solidYellowLeftTest.mp4">
+    </video>
+```
 
 ### 2. Identify potential shortcomings with your current pipeline
 
