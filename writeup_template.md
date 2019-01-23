@@ -112,26 +112,20 @@ Final images after extrapolation of lane lines are shown below:
 
 #### Step 8: Final Pipeline with steps 1 through 7
 Final pipeline with steps 1 through 7 are then applied to test video and the results are shown below:
-```html
-    <video width="960" height="540" controls>
-      <source src="test_videos_output/solidwhiteRightTest.mp4">
-    </video>
 
-    <video width="960" height="540" controls>
-      <source src="test_videos_output/solidYellowLeftTest.mp4">
-    </video>
-```
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=cKHCOd_8zn0)
+
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the lanes are not centered in the image being captured. Currently, the mask is being applied to filter out edge pixels that are not lane lines. And this mask is chosen based on the assumption that the lane lines are always centered in the image.
 
-Another shortcoming could be ...
+Another shortcoming could be if there are objects or spills in the middle of the lane, then these edges will still be carried forward even after masking adding to the noise.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to apply seperate masks for left lane and right lane so that any objects or spills in the middle of the lane could be filtered out. I have already incorporated poly fit function in drawing lane lines so that it could be extended to curvatures in future projects.
 
-Another potential improvement could be to ...
+Another potential improvement could be to be able to detect other cars entering the current lane in close proximity.
