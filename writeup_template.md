@@ -34,6 +34,7 @@ The goals / steps of this project are the following:
 [image16]: ./test_images_extrapolated_output/solidYellowCurve2.jpg "ECurve"
 [image17]: ./test_images_extrapolated_output/solidYellowLeft.jpg "EYellowLeft"
 [image18]: ./test_images_extrapolated_output/whiteCarLaneSwitch.jpg "ELaneSwitch"
+
 ---
 
 ### Reflection
