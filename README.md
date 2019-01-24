@@ -100,6 +100,6 @@ Final pipeline with steps 1 through 7 are then applied to test video and the res
 
 For further details, please refer to ![P1.ipynb](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/P1.ipynb) and ![writeup.md](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/writeup_template.md)
 
-#License
+# License
 
 The content of this repository is licensed under a Creative <a href="https://creativecommons.org/licenses/by/3.0/us/">Commons Attribution License</a> 
