@@ -1,15 +1,38 @@
 # FindingLaneLines_Project01
 ### Udacity Self driving engineer nano degree program - Project 01 - Finding Lane Lines
 
-In this project, lane lines on the road have been identified using tools such as color selection, region of interest selection, grayscaling, Gaussian smoothing, Canny Edge Detection and Hought transform line detection.
+In this project, lane lines on the road have been identified using tools such as Color Selection, Region of Interest Selection, Grayscaling, Gaussian Smoothing, Canny Edge Detection and Hough transform line detection.
 
-A pipeline had been developed on a series of individual images, which is then applied to a video stream (really just a series of images). 
+A pipeline is developed on a series of individual test images, which is then applied to a video stream (really just a series of images). 
+
+[//]: # (Image References)
+
+[image1]: ./test_images/solidWhiteRight.jpg "Original"
+[image2]: ./test_images_output/Gray.png "Gray"
+[image3]: ./test_images_output/GaussianSmoothing.png "Gaussian"
+[image4]: ./test_images_output/Canny.png "Canny"
+[image5]: ./test_images_output/Masked.png "Masked"
+[image6]: ./test_images_output/Hough.png "Hough"
+[image7]: ./test_images_output/solidWhiteCurve.jpg "Curve"
+[image8]: ./test_images_output/solidWhiteRight.jpg "Right"
+[image9]: ./test_images_output/solidYellowCurve.jpg "Yellow"
+[image10]: ./test_images_output/solidYellowCurve2.jpg "Curve"
+[image11]: ./test_images_output/solidYellowLeft.jpg "YellowLeft"
+[image12]: ./test_images_output/whiteCarLaneSwitch.jpg "LaneSwitch"
+[image13]: ./test_images_extrapolated_output/solidWhiteCurve.jpg "ECurve"
+[image14]: ./test_images_extrapolated_output/solidWhiteRight.jpg "ERight"
+[image15]: ./test_images_extrapolated_output/solidYellowCurve.jpg "EYellow"
+[image16]: ./test_images_extrapolated_output/solidYellowCurve2.jpg "ECurve"
+[image17]: ./test_images_extrapolated_output/solidYellowLeft.jpg "EYellowLeft"
+[image18]: ./test_images_extrapolated_output/whiteCarLaneSwitch.jpg "ELaneSwitch"
+
+---
 
 <figure>
  <img src="examples/line-segments-example.jpg" width="380" alt="Combined Image" />
  <figcaption>
  <p></p> 
- <p style="text-align: center;">  output will look something like this (above) after detecting line segments using the helper functions below </p> 
+ <p style="text-align: left;">  Output will look something like this (above) after detecting line segments using the helper functions below </p> 
  </figcaption>
 </figure>
  <p></p> 
@@ -17,7 +40,7 @@ A pipeline had been developed on a series of individual images, which is then ap
  <img src="examples/laneLines_thirdPass.jpg" width="380" alt="Combined Image" />
  <figcaption>
  <p></p> 
- <p style="text-align: center;">  Goal is to connect/average/extrapolate line segments to get output like this</p> 
+ <p style="text-align: left;">  Goal is to connect/average/extrapolate line segments to get output like this</p> 
  </figcaption>
 </figure>
 
