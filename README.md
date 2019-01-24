@@ -121,7 +121,7 @@ Final pipeline with steps 1 through 7 are then applied to test video and the res
 
 [![Second Test Video](https://img.youtube.com/vi/KllC-hVnadA/0.jpg)](https://www.youtube.com/watch?v=KllC-hVnadA)
 
-For further details, please refer to ![P1.ipynb](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/P1.ipynb) and ![writeup.md](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/writeup.md)
+For further details, please refer to ![P1.ipynb](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/P1.ipynb) and ![writeup.md](https://github.com/RMandava6/FindingLaneLines_Project01/blob/master/writeup.md) on my github repo.
 
 # License
 
