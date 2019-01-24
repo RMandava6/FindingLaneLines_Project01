@@ -21,7 +21,7 @@ A pipeline had been developed on a series of individual images, which is then ap
  </figcaption>
 </figure>
 
-#Pipeline for the project
+# Pipeline for the project
 My pipeline consisted of 8 steps.
 
 ####  Step 1:
